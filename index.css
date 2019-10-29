@@ -1,0 +1,186 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.companylogo {
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.container-div .top-container .block1 h4 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #2d2d2d;
+    line-height: 36px;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: 35px;
+    width: 60%px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    background-color: #ddd;
+    color: black;
+}
+
+header nav a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+nav input[type="text"] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.heading .text {
+    display: flex;
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.images .imgs .middle-img {
+    width: 25rem;
+    height: 20rem;
+}
+
+.images {
+    display: flex;
+}
+
+.imgs {
+    display: flex;
+}
+
+.imgs .middle-img {
+    flex-wrap: wrap;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #b3babc;
+    border-radius: 10px;
+}
+
+.masterHead .container .logo1 {
+    width: 1200px;
+    height: 400px;
+}
+
+.container-div .top-container {
+    display: flex;
+}
+
+.container-div .top-container .block {
+    width: 420px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 40px;
+}
+
+.top-container .block {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 20px;
+    padding: 40px;
+}
+
+.block {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.plansandproducts .gold span::before,
+span::after {
+    content: "-----";
+    color: gold;
+    height: 2px;
+    top: 17px;
+    width: 80px;
+}
+
+.plansandproducts .gold {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom-section {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.bottom-section button {
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.bottom-section h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0 0 10px;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
